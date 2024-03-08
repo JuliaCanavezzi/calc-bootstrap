@@ -1,0 +1,77 @@
+.fundo{
+  background-color: #c77dff;
+}
+
+.container{
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+form{
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 8px 0px;
+  background-color: #9d4edd;
+}
+
+input{
+  font-size: "Consolas", Monaco, monospace;
+  align-items: center;
+  font-size: 15px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #e8e8e8;
+  text-align: center;
+  color: black;
+  padding: 5px;
+  width: 250px;
+}
+
+output{
+  font-family: "Consolas", Monaco, monospace;
+  align-items: center;
+  font-size: 20px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #e8e8e8;
+  text-align: center;
+  color: black;
+  margin-bottom: 15px;
+  background-color: #f4f4f4;
+  padding: 5px;
+  outline: none;
+  display: inline-block;
+  width: 250px;
+}
+
+.btn-add, .btn-sub, .btn-mult, .btn-division{
+  margin-bottom: 10px;
+  height: 40px;
+  width: 45px;
+  font-size: 25px;
+  margin-right: 5px;
+  border-radius: 10px;
+  color: #ffffff;
+  background-color: #be95c4;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0px 5px 0px #a06cd5;
+}
+
+.btn-limpar{
+
+  margin-top: 8px;
+  margin-bottom: 10px;
+  height: 40px;
+  width: 60px;
+  font-size: 25px;
+  border-radius: 10px;
+  color: #ffffff;
+  background-color: #3c096c;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0px 5px 0px #5a189a;
+}
+
+
