@@ -11,6 +11,7 @@ export class CalculadoraComponent {
   num2: number=0;
   result : number =0;
 
+
   somar(){
     this.result = this.num1 + this.num2;
   }
@@ -29,12 +30,7 @@ export class CalculadoraComponent {
   }
 
   div(){
-    if(this.num2 == 0){
-      alert("Não é possível DIVIDIR por ZERO!");
-    }
-    else{
-      this.result=this.num1/this.num2;
-    }
+    this.result = this.num1 / this.num2;
   }
 
   limpar(){
