@@ -1,23 +1,31 @@
-<div class="fundo">
-<div class="container">
-<form>
-  <output [value]="result"></output>
-  <br>
-  <input type="number"name="num1" [(ngModel)]="num1" placeholder="Digite o Primeiro Número" >
-  <br><br>
-  <input type="number" name="num2" [(ngModel)]="num2" placeholder="Digite o Segundo Número" >
-  <br><br>
-  <div class="buttons">
-    <button class="btn-add" (click)="somar()">+</button>
-    <button class="btn-sub" (click)="sub()">-</button>
-    <button class="btn-mult" (click)="mult()">x</button>
-    <button class="btn-division" (click)="div()"> / </button>
-    <button class="btn-division" (click)="porce()"> % </button>
-    <button class="btn-division" (click)="med()"> M </button>
-    <button class="btn-limpar" (click)="limpar()">CE</button>
 
+    <div ngbAccordion>
+      <div ngbAccordionItem>
+        <h2 ngbAccordionHeader>
+          <button class="first"ngbAccordionButton>Calculator</button>
+        </h2>
+        <div ngbAccordionCollapse>
+          <div class="fundo">
+            <div class="container">
+            <form>
+              <output [value]="result"></output>
+              <br>
+              <input type="number"name="num1" [(ngModel)]="num1" placeholder="Digite o Primeiro Número" >
+              <br><br>
+              <input type="number" name="num2" [(ngModel)]="num2" placeholder="Digite o Segundo Número" >
+              <br><br>
+              <div class="buttons">
+                <button class="btn-add" (click)="somar()">+</button>
+                <button class="btn-sub" (click)="sub()">-</button>
+                <button class="btn-mult" (click)="mult()">x</button>
+                <button class="btn-division" (click)="div()"> / </button>
+                <button class="btn-division" (click)="porce()"> % </button>
+                <button class="btn-division" (click)="med()"> M </button>
+                <button class="btn-limpar" (click)="limpar()">CE</button>
+              </div>
+            </form>
+        </div>
+      </div>
+    </div>
   </div>
-
-</form>
-</div>
 </div>

@@ -1,3 +1,10 @@
+.first{
+  background-color: #9d4edd;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: large;
+  align-items: center;
+}
+
 .fundo{
   background-color: #c77dff;
 }
